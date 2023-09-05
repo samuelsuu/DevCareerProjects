@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Nunito+Sans:ital,wght@0,300;1,400&family=Nunito:ital,wght@0,500;1,300&family=Open+Sans:wght@300&family=Playfair+Display:ital@0;1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+header{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+      padding: 20px 0;
+      text-align: center;
+}
+
+h2{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+
+table{
+    width: 100%;
+    height: fit-content;
+    padding: 30px 40px;
+    
+}
+th{
+    font-family: 'Nunito', sans-serif;
+    text-align: start;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 10px ;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 590;
+}
+
+#co{
+    background-color: aquamarine;
+}
+
+@media (max-width: 520px) {
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 20px;
+    }
+
+}
